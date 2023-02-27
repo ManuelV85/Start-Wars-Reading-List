@@ -28,7 +28,7 @@ export const Signup = () => {
                 <h1 className="text-center display-6">SIGNUP</h1>
                 <form onSubmit={sendData}>
                     <div className="mb-3">
-                        <label className="form-label">Username</label>
+                        <label id="divForm" className="form-label">Username</label>
                         <input
                             className="form-control"
                             placeholder="Please set your Username"
@@ -39,7 +39,7 @@ export const Signup = () => {
                     </div>
                     <div className="mb-3">
                         <label
-                            className="form-label">Email address
+                            id="divForm" className="form-label">Email address
                         </label>
                         <input
                             className="form-control"
@@ -50,7 +50,7 @@ export const Signup = () => {
                         />
                     </div>
                     <div className="mb-3">
-                        <label className="form-label">Password</label>
+                        <label id="divForm" className="form-label">Password</label>
                         <input
                             className="form-control"
                             placeholder="Please enter your password"

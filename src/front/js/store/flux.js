@@ -1,5 +1,5 @@
 const URL =
-  "https://3001-manuelv85-startwarsread-ic82v98m4yh.ws-us88.gitpod.io";
+  "https://3001-manuelv85-startwarsread-zfmsl4kklyr.ws-us88.gitpod.io";
 
 const getState = ({ getStore, getActions, setStore }) => {
   return {
